@@ -250,4 +250,20 @@
     box-shadow: 1vw 0.2vh rgb(0 0 0 / 5%);
   }
   
+
+  /* media query */
+  @media (max-width: 450px){
+    lable{
+      font-size: 1.1rem;
+    }
+
+     .btn{
+      height: 6vh;
+      width: 32vw;
+      font-size: 3.6rem;
+    }
+    .task-name{
+      font-size: .6rem;
+    }
+  }
  
