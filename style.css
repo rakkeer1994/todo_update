@@ -7,7 +7,7 @@
   }
   footer{
     display: flex;  
-    margin-left: 50%;
+    margin-left: 45%;
     height: 3vh;
     position: fixed;
     bottom: 0;
@@ -20,9 +20,6 @@
     align-items: center;
     justify-content: center;
     overflow: scroll;
-    /* overflow: -moz-scrollbars-none;
-    scrollbar-width: none;
-    -ms-overflow-style: none; */
   }
   
   .container{
@@ -34,7 +31,10 @@
   }
   .list-header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+  }
+  .head1{
+    display: flex;
   }
   #header1{
     font-size: 3.6rem;
@@ -47,10 +47,12 @@
     color: grey;
     font-weight: lighter;
     font-family: sans-serif;
+    padding-left: 6%;
+    margin-top: 6%;
   }
   #header3{
     align-self: center;
-    margin-left: auto;
+    margin-left: 40%;
     font-size: 2.6rem;
     color: grey;
     font-weight: lighter;
@@ -234,6 +236,19 @@
 
   /* media quary */
   @media (max-width: 450px) {
+
+    #header1{
+      font-size: 2.6rem;
+    }
+    #header2{
+      font-size: 1.6rem;
+    }
+    #header3{
+      font-size: 1.6rem;
+      margin-left: 9%;
+    }
+
+
     .list-body{
    display: block;
     }
@@ -243,5 +258,8 @@
     .list{
       margin: 15px;
       height: 10vh;
+    }
+    .footer{
+      margin-left: 34%;
     }
   }
